@@ -11,7 +11,6 @@ const drops = Array(columns).fill(1);
 
 const phrases = [
   "Buenos días, Mi amor",
-  "  Eres el amor de mi vida",
   " Espero que tengas un día maravilloso",
   " ¡Siempre estoy pensando en ti!",
   " Te amo más de lo que las palabras pueden expresar",
@@ -68,7 +67,7 @@ function wrapText(text, context, maxWidth) {
     const testWidth = context.measureText(testLine).width;
 
     // Si la línea es demasiado larga, agregarla a las líneas y comenzar una nueva línea
-    if (testWidth > maxWidth - 50 && line.length > 0) {
+    if (testWidth > maxWidth - 60 && line.length > 0) {
       lines.push(line);
       line = words[i] + " "; // Empezar nueva línea con la palabra actual
     } else {
