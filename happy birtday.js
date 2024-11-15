@@ -11,9 +11,9 @@ const drops = Array(columns).fill(1);
 
 const phrases = [
   "Buenos días, Mi amor",
-  "Eres el amor de mi vida",
-  "Espero que tengas un día maravilloso",
-  "¡Siempre estoy pensando en ti!",
+  "  Eres el amor de mi vida",
+  " Espero que tengas un día maravilloso",
+  " ¡Siempre estoy pensando en ti!",
   " Te amo más de lo que las palabras pueden expresar",
 ];
 
